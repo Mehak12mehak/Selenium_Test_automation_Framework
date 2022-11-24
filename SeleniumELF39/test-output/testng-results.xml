@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-21T16:20:11 IST" name="Default suite" finished-at="2022-11-21T16:20:19 IST" duration-ms="8175">
+    <groups>
+    </groups>
+    <test started-at="2022-11-21T16:20:11 IST" name="Default test" finished-at="2022-11-21T16:20:19 IST" duration-ms="8175">
+      <class name="POM_Testcases.DWS_BookTest">
+        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:POM_Testcases.DWS_BookTest@3e694b3f]" started-at="2022-11-21T16:20:11 IST" name="BrowserSetup" finished-at="2022-11-21T16:20:15 IST" duration-ms="4102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserSetup -->
+        <test-method signature="Book_click(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:POM_Testcases.DWS_BookTest@3e694b3f]" started-at="2022-11-21T16:20:16 IST" name="Book_click" data-provider="TestData" finished-at="2022-11-21T16:20:19 IST" duration-ms="2979" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Name: Z to A]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[List]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Book_click -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:POM_Testcases.DWS_BookTest@3e694b3f]" started-at="2022-11-21T16:20:19 IST" name="Teardown" finished-at="2022-11-21T16:20:19 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- POM_Testcases.DWS_BookTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="RegressionTest">
+    <classes>
+      <class name="POM_Testcases.DWS_TricentisTest"/>
+      <class name="POM_Testcases.DWS_RadioTest"/>
+      <class name="POM_Testcases.DWS_BookTest"/>
+      <class name="POM_Testcases.DWS_ApprealTest"/>
+      <class name="POM_Testcases.DWS_Register_Test"/>
+      <class name="POM_Testcases.DWS_JewelryTest"/>
+      <class name="POM_Testcases.DWS_Advance_search"/>
+      <class name="POM_Testcases.DWS_GiftTest"/>
+      <class name="POM_Testcases.DWS_ComputerTest"/>
+      <class name="POM_Testcases.DWS_SubscribeTest"/>
+      <class name="POM_Testcases.DWS_Login_Test"/>
+      <class name="POM_Testcases.DWS_Search_Test"/>
+      <class name="POM_Testcases.DWS_DigitalTest"/>
+       <class name="POM_Testcases.DWS_Wishlist_Test"/>
+        <class name="POM_Testcases.DWS_SubscribeTest"/>
+       
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
